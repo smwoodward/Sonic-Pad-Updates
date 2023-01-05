@@ -1,0 +1,9 @@
+To bypass new printer setup screen, 
+Create a file called QtStorage.json in /mnt/UDISK
+Add the following code to file and save
+
+{
+    "isFirstBoot": false
+}
+
+Reboot pad
